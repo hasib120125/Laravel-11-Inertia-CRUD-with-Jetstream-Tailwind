@@ -18,7 +18,7 @@ class PostController extends Controller
 
         $data = Post::all();
 
-        return Inertia::render('posts', ['data' => $data]);
+        return Inertia::render('Post', ['data' => $data]);
 
     }
 
